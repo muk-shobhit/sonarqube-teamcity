@@ -209,3 +209,4 @@ src/\.idea
 /src/.sonarqube/*
 /src/tempnuget
 /scripts/Microsoft.ServiceBus.dll
+/src/teamcity-sonarqube/.sonarqube/*
