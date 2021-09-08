@@ -26,9 +26,12 @@ namespace teamcity_sonarqube.Controllers
         [HttpGet]
         public IEnumerable<WeatherForecast> Get()
         {
+            var test="demo";
+
             var demo="demo";
              var demo2="demo2";
               var demo3="demo3";
+              var demo4="demo3";
             var rng = new Random();
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
             {
