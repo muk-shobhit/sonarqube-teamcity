@@ -13,7 +13,7 @@ namespace teamcity_sonarqube.Controllers
     {
         private static readonly string[] Summaries = new[]
         {
-            "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
+            "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching","Scorching1"
         };
 
         private readonly ILogger<WeatherForecastController> _logger;
@@ -26,9 +26,11 @@ namespace teamcity_sonarqube.Controllers
         [HttpGet]
         public IEnumerable<WeatherForecast> Get()
         {
-          var i=6;
+            var i = 6;
+            var j = 8;
 
-              var demo4="demo3";
+
+            var demo4 = "demo3";
             var rng = new Random();
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
             {
